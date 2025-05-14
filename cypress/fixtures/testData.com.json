@@ -1,0 +1,21 @@
+{
+    "baseUrl": {
+        "stag": "https://staging.invoiceonline.com",
+        "prod": "https://invoiceonline.com"
+    } ,
+    "createContact": {
+        "name": "John Smith",
+        "id": "98-7654321",
+        "email": "john.smith@example.com",
+        "dic": "98-7654321",
+        "tel": "+1-202-555-0135",
+        "web": "www.example.com",
+        "vat_number": "US987654321",
+        "teritorial": "California",
+        "street": "123 Main Street",
+        "city": "Los Angeles",
+        "zip": "90001",
+        "country": "United States"
+      }
+    
+  }

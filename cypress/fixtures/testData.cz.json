@@ -1,0 +1,18 @@
+{
+  "baseUrl": {"stag": "https://staging.fakturaonline.cz",  
+  "prod": "https://fakturaonline.cz"},
+  
+  "createContact": 
+  { "name": "Jan Novak",
+    "id": "04129890",
+    "email": "jan.novak@example.cz",
+    "dic": "CZ04129890",
+    "tel":"602123456",
+    "web":"www.example.cz",
+    "vat_number": "CZ04129890",
+    "teritorial": "Praha",
+      "street": "Hlavní 123",
+      "city": "Praha",
+      "zip": "11000",
+      "country": "Česká republika"      
+  }}

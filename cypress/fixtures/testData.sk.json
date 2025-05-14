@@ -1,0 +1,22 @@
+{
+    "baseUrl": {
+    "stag": "https://staging.fakturaonline.sk",
+    "prod": "https://fakturaonline.sk"
+    },    
+    "createContact": {
+        "name": "Ján Novák",
+        "id": "12345678",
+        "email": "jan.novak@example.sk",
+        "dic": "SK12345678",
+        "tel": "0902123456",
+        "web": "www.example.sk",
+        "vat_number": "SK12345678",
+        "teritorial": "Bratislava",
+        "street": "Hlavná 123",
+        "city": "Bratislava",
+        "zip": "81101",
+        "country": "Slovenská republika"
+      }
+      
+    
+  }

@@ -4,6 +4,20 @@
     "node": "22.x"
   },
   "dependencies": {
-    "cypress": "^14.3.3"
+    "@faker-js/faker": "^9.7.0",
+    "cypress": "^14.3.3",
+    "dotenv-cli": "^8.0.0",
+    "faker": "^6.6.6",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test:cz-open": "DOMAIN=cz npx cypress open",
+    "stag:cz": "DOMAIN=cz ENV=stag npx cypress run",
+    "stag:en": "DOMAIN=com ENV=stag npx cypress run",
+    "stag:sk": "DOMAIN=sk ENV=stag npx cypress run",
+    "prod:cz": "DOMAIN=cz ENV=prod npx cypress run",
+    "prod:en": "DOMAIN=com ENV=prod npx cypress run",
+    "prod:sk": "DOMAIN=sk ENV=prod npx cypress run"
   }
 }

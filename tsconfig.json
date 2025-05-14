@@ -1,0 +1,22 @@
+{
+  "include": [
+    "**/*.ts"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "outDir": "./dist/",
+    "module": "esnext",
+    "target": "es6",
+    "allowJs": true,
+    "types": [
+      "cypress",
+      "node",
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    
+  }
+}
