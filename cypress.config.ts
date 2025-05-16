@@ -1,10 +1,11 @@
 import { defineConfig } from 'cypress'
 import { readFileSync } from 'fs'
+require('dotenv').config()
 
-const domain = process.env.DOMAIN || 'cz';
-const rawData = readFileSync(`./cypress/fixtures/testData.${domain}.json`, 'utf-8');
-const data = JSON.parse(rawData);
-const env = process.env.ENV || 'staging'; 
+const domain = process.env.DOMAIN || 'cz'
+const rawData = readFileSync(`./cypress/fixtures/testData.${domain}.json`, 'utf-8')
+const data = JSON.parse(rawData)
+const env = process.env.ENV || 'stag'
 
 export default defineConfig({
   defaultCommandTimeout: 15000,
@@ -15,6 +16,7 @@ export default defineConfig({
   watchForFileChanges: false,
   video: false,
   env: {
+    ...process.env,
     DOMAIN: domain,
   },
   e2e: {
